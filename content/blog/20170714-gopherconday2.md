@@ -7,6 +7,7 @@ weight = 20
 
 +++
 
+Not a real blog post, just recording notes from the talks I got to watch.
 
 ## Channels behind the scenes
 
@@ -189,6 +190,24 @@ Observe and/or Decide Act
 I think [Peter Bourgon](https://peter.bourgon.org/) is my new engineering hero..
 
 
+## Go at the DARPA Cyber Grand Challenge
+
+Offensive and Defensive operations
+
+Network inputs from legitimate sources could not fail.
+
+There is some buffering built into the network stack. 
+    Added buffering after picking packets off the wire to handle bursts.
+
+MySQL running on memory filesystem 
+
+Team Xandra [Cyber Challenge](http://archive.darpa.mil/cybergrandchallenge/event.html#results)
+
+## Go Package Management?
+
+Gopkg.lock -> vendor/ is rough around the edges right now
+
+Third space outside of `vendor/`; `go/vendor/{tagged package sets}`
 
 
 
